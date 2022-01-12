@@ -1,0 +1,77 @@
+#about {
+  background-color: #e3fdfd;
+}
+
+#service {
+  background-color: #cbf1f5;
+}
+
+#contact {
+  background-color: #e3fdfd;
+}
+
+.text-name {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.text-desc {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.text-title {
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.text-code {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.btn-ig {
+  background-color: #c30081;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .jumbotron {
+    margin-top: -35vh;
+    /* height: 5rem; */
+  }
+  .card-about {
+    width: 15rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .jumbotron {
+    margin-top: 30%;
+    margin-bottom: 5%;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+@media (min-width: 1400px) {
+  .jumbotron {
+    margin-top: 15%;
+    /* height: 9rem; */
+  }
+
+  #service {
+    height: 25rem;
+  }
+}
